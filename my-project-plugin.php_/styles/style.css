@@ -1,0 +1,208 @@
+/* button icon  */
+.pop_up_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    height: 75px;
+    width: 75px;
+    font-size: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    justify-content: center;
+    box-shadow: 0px 0px 4px lightgrey;
+    display: flex;
+}
+/* pop up button */
+.action-toggle-popup {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    height: 75px;
+    width: 75px;
+    font-size: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    justify-content: center;
+    box-shadow: 0px 0px 4px lightgrey;
+    display: flex;
+}
+
+/* full pop up "background" layer */
+.div-popup {
+    background-color: #F2F7FA;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    right: 25px;
+    bottom: 125px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+/* pop up header */
+.div-popup-header {
+    width: 100%;
+    height: 75px;
+    background-color: #015CC8;
+    text-align: center;
+}
+/* pop up header title */
+.div-popup-header span {
+    color: white;
+    line-height: 75px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/* pop up content "background" layer */
+.div-popup-content {
+    margin: 20px;
+    background-color: white;
+    width: calc(100% - 40px);
+    /* Height header + margin */
+    height: calc(100% - 115px);
+    border-radius: 5px;
+}
+
+/*  title styling for the content options */
+.div-popup-content-titles {
+    color: black;
+    line-height: 75px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 5%;
+}
+/* margin from the left of the content pop up layer */
+.div-popup-content-options {
+    margin-left: 5%;
+}
+
+/* .action-toggle-pop-up {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 75px;
+    height: 75px;
+    z-index: 100;
+    border-radius: 50px;
+    background-color: #fff;
+} */
+    
+/* popup.php */
+
+/*  achtergrond volledige pop up */
+/*
+.ej-helper-popup{
+    position: fixed;
+    top:10%;
+    right:10%;
+    width: 500px;
+    height:800px;
+    background-color: #F2F7FA;  
+    z-index: 100;
+    border-radius: 5px  5px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+/*
+/* header */
+/*
+.ej-helper-popup-header{
+    position: fixed;
+    top:10%;
+    // right:10rem; 
+    width: 500px;
+    height:6rem;
+    background-color: #015CC8;
+    border-radius: 5px  5px 0px 0px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+/*
+
+/* header title */
+/*
+.ej-helper-popup-header-titel{
+    position: fixed;
+    top:11%;
+    right:15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:#fff;
+    font-weight:bold;
+}
+/*
+/* boxsizing border box */
+/* body */
+/*
+.ej-helper-popup-content{
+    position: fixed;
+    top:17.5rem;
+    bottom:0px;
+    right:11.5rem;
+    width: 450px;
+    height:42rem;
+    z-index: 100;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.017) 0px 1px 3px, rgba(0, 0, 0, 0.007) 1px 1px 5px;
+}
+
+/* .ej-focus-adjustment-line-top{
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+} */
+/* options styling */
+
+/* focus title */
+/*  
+.ej-helper-popup-focus-titel{
+    position: fixed;
+    top:18rem;
+    padding-left:1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:black;
+}
+*/
+/* content title */
+/*
+.ej-helper-popup-content-titel{
+    position: fixed;
+    top:20rem;
+    padding-left:1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:black;
+}
+/*
+/*
+.div-popup {
+    background-color: var(--primary-light);
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.div-popup-header {
+    width: 100%;
+    height: 75px;
+    background-color: var(--primary);
+    background-color: blue;
+}
+.div-popup-content {
+    margin: 20px;
+    //background-color: white; /*
+    background-color: red;
+    width: calc(100% - 40px);
+    // note Height header + margin 
+    height: calc(100% - 115px);
+}
+
+/*
